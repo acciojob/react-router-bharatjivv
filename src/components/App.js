@@ -8,7 +8,6 @@ import About from "./About";
 const App = () => {
   return (
     <Router>
-      <div>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
@@ -19,7 +18,6 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
         </Switch>
-      </div>
     </Router>
     
   );
